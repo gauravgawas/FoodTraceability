@@ -1,0 +1,94 @@
+.logincard{
+   display: inline-flex;
+   width: 100%;
+   text-align: center;
+}
+.loginformcard{
+   width: 40%;
+   text-align: center;
+   margin: auto;
+}
+.text{
+   font-size: 30px;
+   font-weight: bold;
+   font-family:sans-serif;
+   text-align: center;
+}
+.img{
+   padding-right:20px;
+   width:20%;
+   margin-right:10px;
+   text-shadow: 2px 2px white;
+}
+body{
+   background-image: url("https://cdn.pixabay.com/photo/2022/02/19/12/05/delivery-7022432_960_720.png");
+   background-blend-mode:color-burn ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: scroll;
+}
+.formlabel{
+   width: 60%;
+   font-family: Helvetica, sans-serif;
+   font-weight: bold;
+   background-color: azure;
+   border-radius: 10px;
+ background: rgba(242, 244, 242, 0.757);
+}
+ 
+.loginformcard{
+   background-image: url("https://t4.ftcdn.net/jpg/05/05/60/39/240_F_505603925_rM9yBP8aqS7K2X8TBSfLaspiYop95DDS.jpg");
+   background-repeat: no-repeat;
+   
+   background-size:auto;
+   margin: 20px; 
+   padding: 20px;
+   border-radius: 7px;
+   
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   width: 60%;
+}
+
+.rolebtn{
+   background-color: #147EFB;
+   padding: 10px;
+   border: 0px;
+   height: 46px;
+   border-radius: 10px 10px 10px 10px;
+   color: white;
+   margin: 10px;
+   width: 26%;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.cardstyle{
+   width: 40%;
+   background-color: azure;
+   padding: 20px;
+   
+   box-shadow: 0 3px 6px rgba(0,0,0,0.20), 0 3px 6px rgba(0,0,0,0.23);
+   display: none;
+   font-weight: bold;
+   overflow: scroll;
+}
+
+.mycardstyle{
+   margin-top: 100px;
+   width: 40%;
+   background-image: url("https://t4.ftcdn.net/jpg/03/74/68/11/240_F_374681146_IHkmZ0FISdNDhfuquKXgKSisePqeX3fg.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-left: 10px; padding-left: 10px;
+   padding-top: 25px; padding-bottom: 25px;
+   border-radius: 10px;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   transition: box-shadow 0.5s ease;
+   z-index: 11;
+}
+
+.greyarea{
+   width: 90%;
+   padding: 15px;
+   border-radius: 10px 10px 10px 10px;
+   background: rgba(187, 192, 187, 0.729)
+}
